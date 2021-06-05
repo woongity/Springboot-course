@@ -35,4 +35,5 @@ public class AppConfig {
         // policy를 바꾸게 되더라도 이부분만 바꾸면 되는 장점이 있다.
         return new FixedDiscountPolicy();
     }
+
 }
