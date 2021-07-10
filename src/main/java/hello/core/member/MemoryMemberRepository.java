@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
+//@Component
 public class MemoryMemberRepository implements MemberRepository{
     // 동시성 이슈가 발생할수 있다. 실무에서는 concerate hashmap 사용함
     private static Map<Long,Member> store = new HashMap<>();
